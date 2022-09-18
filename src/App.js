@@ -1,24 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/navbar';
+import LandingPage from './Components/landingsection';
+import AboutUs from './Components/aboutUs';
+import OurProduct from './Components/ourProduct';
+import Healthy from './Components/healthy';
+import OurCustormers from './Components/ourCustomers';
+import OurGallery from './Components/ourGallery';
+import Footer from './Components/footer';
+
+import { COLORS } from './theme';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar colors={COLORS}/>
+      <LandingPage colors={COLORS}/>
+      <AboutUs colors={COLORS}/>
+      <OurProduct colors={COLORS}/>
+      <Healthy colors={COLORS}/>
+      <OurCustormers colors={COLORS}/>
+      <OurGallery colors={COLORS}/>
+      <Footer colors={COLORS}/>
+    </>
   );
 }
 
