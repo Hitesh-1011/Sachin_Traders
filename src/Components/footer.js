@@ -37,21 +37,31 @@ export default function Footer() {
             </div>
             <div className="col-6 col-md-4 col-lg-2">
               <h4>Products</h4>
-              <p>Masoor Dhal</p>
-              <p>Masoor Dhal</p>
-              <p>Masoor Dhal</p>
+              <p>Toor Dhal Rejection (red)</p>
+              <p>Toor Dhal Rejection ( White )</p>
+              <p>Toor Dhal Rejection Bold (red )</p>
+              <p>Toor Dhal Rejection Bold ( White )</p>
+              <p>Toor Dhal Rejection Broken Khanda (sortex )</p>
+              <p>Toor Dhal Rejection Broken Khanda (non -sortex )</p>
+              <p>Toor Dhal Rejection (Broken Khanda waste )</p>
             </div>
             <div className="col-6 col-md-4 col-lg-2">
               <h4>Find us on</h4>
-              <p>
+              <a
+                href="https://www.facebook.com/profile.php?id=100009055536878"
+                target="_blank"
+              >
                 <img src={facebook} className="img-fluid" /> Facebook
-              </p>
-              <p>
+              </a>
+              <a
+                href="https://www.instagram.com/invites/contact/?i=1l7hmswc91axi&utm_content=21ju5af"
+                target="_blank"
+              >
                 <img src={instagram} className="img-fluid" /> Instagram
-              </p>
-              <p>
+              </a>
+              {/* <a href="">
                 <img src={twitter} className="img-fluid" /> Twitter
-              </p>
+              </a> */}
             </div>
           </div>
         </div>

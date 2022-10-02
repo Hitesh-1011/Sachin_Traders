@@ -213,13 +213,26 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-align: justify;
   color: #000000;
+}
+.slick-next {
+  right: 0 !important;
 }
 
 .ourGallery-section .row {
   max-width: 1080px;
   margin: auto;
+}
+
+.fixedWhatsapp {
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  z-index: 999;
+}
+
+.fixedWhatsapp img {
+  height: 44px;
 }
 
 @media only screen and (max-width: 600px) {
