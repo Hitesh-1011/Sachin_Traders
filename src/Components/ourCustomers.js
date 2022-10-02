@@ -5,16 +5,16 @@ import "slick-carousel/slick/slick-theme.css";
 
 var clientData = [
     {
-        customerReview:"Amazing product..It is so delicious ,when you cook..all time favorite dal after bought..Smell good, easy to cook",
+        customerReview:"“Amazing product..It is so delicious ,when you cook..all time favorite dal after bought..Smell good, easy to cook”",
         customerName:"Hrithik Ahmad",
     },
     {
-        customerReview:"Amazing product..It is so delicious ,when you cook..all time favorite dal after bought..Smell good, easy to cook",
-        customerName:"Hrithik",
+        customerReview:"“Product benefits are any positive impact that a good or service has on the experience of a consumer interacting with it.”",
+        customerName:"Sadar patel",
     },
     {
-        customerReview:"Amazing product..It is so delicious ,when you cook..all time favorite dal after bought..Smell good, easy to cook",
-        customerName:"Ahmad",
+        customerReview:"“Tur dal good and clean at affordable price”",
+        customerName:"Simran",
     },
 ]
 

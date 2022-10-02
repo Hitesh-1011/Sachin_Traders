@@ -7,8 +7,8 @@ body {
   background-color: var();
 }
 
-.navbar a{
-  font-family: 'Poppins';
+.navbar a {
+  font-family: "Poppins";
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
@@ -48,7 +48,7 @@ h2 {
   background-position: center;
   background-size: cover;
   margin-top: -4px;
-  padding: 20% 0;
+  padding: 17% 0;
 }
 
 .landingSection-header {
@@ -77,8 +77,8 @@ h2 {
   margin-bottom: 24px;
 }
 
-.aboutUs-section p{
-  font-family: 'Poppins';
+.aboutUs-section p {
+  font-family: "Poppins";
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
@@ -94,13 +94,16 @@ h2 {
   border: 1px solid #dfdfdf;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  margin-bottom: 24px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 40px;
+  min-height: 492px;
 }
 
 .ourProduct-section-card h4 {
   font-family: "Poppins";
   font-weight: 500;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 45px;
   color: #363636;
   margin-bottom: 4px;
@@ -165,6 +168,15 @@ h2 {
   opacity: 1 !important;
   margin-top: 16px;
 }
+.react-multi-carousel-dot button {
+  width: 16px !important;
+  height: 16px !important;
+  border: none !important;
+  background: #d9d9d9 !important;
+}
+.react-multi-carousel-dot--active button {
+  background-color: #ffc700 !important;
+}
 
 .slick-list {
   text-align: center !important;
@@ -196,8 +208,8 @@ h2 {
   color: #000000;
 }
 
-.footer-section p{
-  font-family: 'Poppins';
+.footer-section p {
+  font-family: "Poppins";
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -205,7 +217,18 @@ h2 {
   color: #000000;
 }
 
+.ourGallery-section .row {
+  max-width: 1080px;
+  margin: auto;
+}
+
 @media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 18px !important;
+    line-height: 27px !important;
+    margin-bottom: 11px !important;
+  }
+
   .landingSection-header h1 {
     font-size: 28px;
     line-height: 34px;
@@ -213,5 +236,35 @@ h2 {
 
   .custormers-review-container {
     padding: 30px;
+  }
+
+  .aboutUs-section,
+  .footer-section,
+  .healthy-section,
+  .ourCustomers-section,
+  .ourGallery-section,
+  .ourProduct-section {
+    padding: 40px 0 8px !important;
+  }
+
+  h4 {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  p {
+    font-size: 14px !important;
+    line-height: 21px !important;
+  }
+
+  .ourGallery-section img:first-child {
+    margin-bottom: 8px;
+  }
+  .ourProduct-section-card {
+    min-height: fit-content !important;
+  }
+  .navbar a {
+    padding: 8px 4px !important;
   }
 }

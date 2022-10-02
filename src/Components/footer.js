@@ -10,10 +10,10 @@ export default function Footer() {
       <div className="footer-section" id="contactus">
         <div className="container">
           <div className="row justify-content-between">
-            <div className="col-4 col-md-4 col-lg-3">
+            <div className="col-5 col-md-4 col-lg-3">
               <img src={Image1} className="img-fluid" />
             </div>
-            <div className="col-4 col-md-4 col-lg-3">
+            <div className="col-7 col-md-4 col-lg-3">
               <div>
                 <h4>Sachin Traders</h4>
                 <p>
