@@ -10,10 +10,10 @@ export default function Footer() {
       <div className="footer-section" id="contactus">
         <div className="container">
           <div className="row justify-content-between">
-            <div className="col-5 col-md-4 col-lg-3">
+            <div className="col-4 col-md-4 col-lg-3">
               <img src={Image1} className="img-fluid" />
             </div>
-            <div className="col-7 col-md-4 col-lg-3">
+            <div className="col-8 col-md-4 col-lg-3 p-0">
               <div>
                 <h4>Sachin Traders</h4>
                 <p>
@@ -21,21 +21,9 @@ export default function Footer() {
                   been associated with premium quality all dal{" "}
                 </p>
               </div>
-              <div>
-                <h4>Contact</h4>
-                <p>No, 47 Gangai Street Katpadi - 632154</p>
-                <p>+91 9159026242</p>
-                <p>WWW.Sachintraders.com</p>
-              </div>
             </div>
-            <div className="col-8 col-md-4 col-lg-1">
-              <h4>Company</h4>
-              <a href="#home">Home</a>
-              <a href="#aboutus">About Us</a>
-              <a href="#product">Product</a>
-              <a href="#gallery">Gallery</a>
-            </div>
-            <div className="col-6 col-md-4 col-lg-2">
+
+            {/* <div className="col-6 col-md-4 col-lg-2">
               <h4>Products</h4>
               <p>Toor Dhal Rejection (red)</p>
               <p>Toor Dhal Rejection ( White )</p>
@@ -44,6 +32,19 @@ export default function Footer() {
               <p>Toor Dhal Rejection Broken Khanda (sortex )</p>
               <p>Toor Dhal Rejection Broken Khanda (non -sortex )</p>
               <p>Toor Dhal Rejection (Broken Khanda waste )</p>
+            </div> */}
+            <div className="col-6 col-md-4 col-lg-2">
+              <h4>Contact</h4>
+              <p>No, 47 Gangai Street Katpadi - 632154</p>
+              <p>+91 9159026242</p>
+              <p>www.sachintraders.com</p>
+            </div>
+            <div className="col-6 col-md-4 col-lg-1">
+              <h4>Company</h4>
+              <a href="#home">Home</a>
+              <a href="#aboutus">About Us</a>
+              <a href="#product">Product</a>
+              <a href="#gallery">Gallery</a>
             </div>
             <div className="col-6 col-md-4 col-lg-2">
               <h4>Find us on</h4>
