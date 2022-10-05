@@ -29,7 +29,7 @@ export default function LandingPage() {
               </h1>
             </div>
           </div>
-          <div className="slide slide4">
+          <div className="slide slide5">
             <div className="landingSection-header">
               <h1>
                 MADE FROM <br />
@@ -37,7 +37,7 @@ export default function LandingPage() {
               </h1>
             </div>
           </div>
-          <div className="slide slide5">
+          <div className="slide slide4">
             <div className="landingSection-header">
               <h1>
                 MADE FROM <br />
