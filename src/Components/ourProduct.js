@@ -69,9 +69,8 @@ export default function OurProduct() {
             arrows={false}
             autoPlaySpeed={3000}
             centerMode={false}
-            className=""
+            autoPlay
             containerClass="container-with-dots"
-            dotListClass=""
             draggable
             focusOnSelect={false}
             infinite
