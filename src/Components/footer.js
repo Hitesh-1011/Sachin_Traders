@@ -28,7 +28,8 @@ export default function Footer() {
               <div className="d-none d-sm-block">
                 <h4>Contact</h4>
                 <p>
-                  <ImLocation /> No, 47 Gangai Street Katpadi - 632154
+                  <ImLocation /> No.755/3c, Mullai Garden Sanjeevirayapuram,
+                  Mottur Katpadi, Vellore, Tamil Nadu-632007
                 </p>
                 <p>
                   <BsTelephoneFill /> +91 9159026242
@@ -37,8 +38,7 @@ export default function Footer() {
                   <BsGlobe /> sachintraders3087@gmail.com
                 </p>
                 <p>
-                  <GoMail />
-                  www.sachintraders.com
+                  <GoMail /> www.sachintraders.com
                 </p>
               </div>
             </div>
@@ -64,7 +64,8 @@ export default function Footer() {
             <div className="col-9 col-md-4 col-lg-2 d-block d-sm-none mt20 ml20">
               <h4>Contact</h4>
               <p>
-                <ImLocation /> No, 47 Gangai Street Katpadi - 632154
+                <ImLocation /> No.755/3c, Mullai Garden Sanjeevirayapuram,
+                Mottur Katpadi, Vellore, Tamil Nadu-632007
               </p>
               <p>
                 <BsTelephoneFill /> +91 9159026242
@@ -73,8 +74,7 @@ export default function Footer() {
                 <BsGlobe /> sachintraders3087@gmail.com
               </p>
               <p>
-                <GoMail />
-                www.sachintraders.com
+                <GoMail /> www.sachintraders.com
               </p>
             </div>
             <div className="col-6 col-md-4 col-lg-2">
