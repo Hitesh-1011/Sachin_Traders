@@ -7,7 +7,7 @@ export default function Navbar({colors}){
         <>
             <nav style={{background:colors.primary}} class="navbar sticky-top navbar-expand-lg">
                 <div class="container-fluid container">
-                    <a class="navbar-brand" href="#"><img src={logo} alt="Sachin Store"/></a>
+                    <a class="navbar-brand" href="#"><img src={logo} loading="lazy" alt="Sachin Store"/></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>

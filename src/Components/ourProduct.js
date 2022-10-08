@@ -122,6 +122,7 @@ export default function OurProduct() {
                   src={data.productimg}
                   className="img-fluid"
                   alt="moon dal"
+                  loading="lazy"
                 />
                 <h4>{data.productName}</h4>
               </div>

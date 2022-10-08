@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-4 col-md-4 col-lg-3">
-              <img src={Image1} className="img-fluid" />
+              <img src={Image1} loading="lazy" className="img-fluid" />
             </div>
             <div className="col-8 col-md-4 col-lg-3 p-0">
               <div>
@@ -83,16 +83,16 @@ export default function Footer() {
                 href="https://www.facebook.com/profile.php?id=100009055536878"
                 target="_blank"
               >
-                <img src={facebook} className="img-fluid" /> Facebook
+                <img src={facebook} loading="lazy" className="img-fluid" /> Facebook
               </a>
               <a
                 href="https://www.instagram.com/invites/contact/?i=1l7hmswc91axi&utm_content=21ju5af"
                 target="_blank"
               >
-                <img src={instagram} className="img-fluid" /> Instagram
+                <img src={instagram} loading="lazy" className="img-fluid" /> Instagram
               </a>
               {/* <a href="">
-                <img src={twitter} className="img-fluid" /> Twitter
+                <img src={twitter} loading="lazy" className="img-fluid" /> Twitter
               </a> */}
             </div>
           </div>

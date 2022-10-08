@@ -11,11 +11,11 @@ export default function OurGallery(){
                     <h2>Gallery</h2>
                     <div className="row">
                         <div className="col-12 col-sm-6">
-                            <img src={galleryImg1} className="img-fluid"/>
+                            <img loading="lazy" src={galleryImg1} className="img-fluid"/>
                         </div>
                         <div className="col-12 col-sm-6">
-                            <img src={galleryImg2} className="img-fluid margin-8"/>
-                            <img src={galleryImg3} className="img-fluid"/>
+                            <img loading="lazy" src={galleryImg2} className="img-fluid margin-8"/>
+                            <img loading="lazy" src={galleryImg3} className="img-fluid"/>
                         </div>
                     </div>
                 </div>

@@ -11,6 +11,7 @@ export default function AboutUs() {
             <div className="row">
               <div className="col-12 col-sm-6 text-center">
                 <img
+                  loading="lazy"
                   src={AboutUsImg}
                   className="img-fluid"
                   alt="aboutUs Image"
