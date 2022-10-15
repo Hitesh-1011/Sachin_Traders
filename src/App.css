@@ -109,7 +109,7 @@ h2 {
   95% {
     left: -300%;
   }
-  100%{
+  100% {
     left: -400%;
   }
 }
@@ -336,6 +336,15 @@ h2 {
 .ourGallery-section .row {
   max-width: 1080px;
   margin: auto;
+  margin-bottom: 8px;
+}
+
+.height238 {
+  height: 238px;
+}
+
+.mb-8px {
+  margin-bottom: 8px;
 }
 
 .fixedWhatsapp {
@@ -387,6 +396,9 @@ h2 {
 
   .ourGallery-section img:first-child {
     margin-bottom: 8px;
+  }
+  .height238 {
+    height: fit-content;
   }
   .ourProduct-section-card {
     min-height: fit-content !important;

@@ -14,10 +14,10 @@ export default function Footer() {
       <div className="footer-section" id="contactus">
         <div className="container">
           <div className="row justify-content-between">
-            <div className="col-4 col-md-4 col-lg-3">
+            <div className="col-4 col-md-4">
               <img src={Image1} loading="lazy" className="img-fluid" />
             </div>
-            <div className="col-8 col-md-4 col-lg-3 p-0">
+            <div className="col-8 col-md-4 p-0">
               <div>
                 <h4>Sachin Traders</h4>
                 <p>
@@ -39,6 +39,9 @@ export default function Footer() {
                 </p>
                 <p>
                   <GoMail /> www.sachintraders.com
+                </p>
+                <p>
+                  <b>GST NO : </b>33LKJPS1030C1ZF
                 </p>
               </div>
             </div>
@@ -76,6 +79,9 @@ export default function Footer() {
               <p>
                 <GoMail /> www.sachintraders.com
               </p>
+              <p>
+                <b>GST NO : </b>33LKJPS1030C1ZF
+              </p>
             </div>
             <div className="col-6 col-md-4 col-lg-2">
               <h4>Find us on</h4>
@@ -83,13 +89,15 @@ export default function Footer() {
                 href="https://www.facebook.com/profile.php?id=100009055536878"
                 target="_blank"
               >
-                <img src={facebook} loading="lazy" className="img-fluid" /> Facebook
+                <img src={facebook} loading="lazy" className="img-fluid" />{" "}
+                Facebook
               </a>
               <a
                 href="https://www.instagram.com/invites/contact/?i=1l7hmswc91axi&utm_content=21ju5af"
                 target="_blank"
               >
-                <img src={instagram} loading="lazy" className="img-fluid" /> Instagram
+                <img src={instagram} loading="lazy" className="img-fluid" />{" "}
+                Instagram
               </a>
               {/* <a href="">
                 <img src={twitter} loading="lazy" className="img-fluid" /> Twitter
